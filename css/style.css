@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --cor-1: #0289c6;
+    --cor-2: #27A2D4;
+    --cor-3: #4BBAE3;
+    --cor-4: #70D3F1;
+    --cor-5: #94EBFF;
+}
+
+body{
+    background-image: linear-gradient(to right,#94Ebff,#0289c6);
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(#4BBAE3,#0289c6);
+}
+nav{
+    display: block;
+    margin-left: 6%;
+}
+nav img{
+    width: 9%;
+    float:left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li {
+    list-style-type: none;
+    margin-top: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1em;
+    color: black;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 15%;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    font-size: 20px;
+    background-color: var(--cor-4);
+    transition: .5s;
+    box-shadow: 10px 10px 10px;
+}
+nav input{
+    height: 25px;
+    margin-top: 3.9%;
+    margin-left: 5%;
+    width: 30%;
+    border-radius: 40px;
+    padding-left: 1%;
+}
+
+#login{
+    margin-left: 3%;
+    margin-top: 3.5%;
+    color: white;
+}
+#login span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#login span:hover{
+    color: #f6e5c5;
+}
+#login img{
+   width: 80%;
+   margin-top: -20%;
+   margin-left: 60%;
+   
+}
+
+#conteudo{
+    background-image: url("/imgs/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo #logo_central{
+    margin-left: 30%;
+    transition: transform .5s ease-in-out;
+    display: flex;
+
+}
+
+#conteudo #logo_central:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#conteudo h1{
+    text-align: center;
+
+}
+
+#destaques{
+    display: inline-block;
+}
+
+#destaques h1{
+    margin-left: 45% ;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#destaques .videos{
+    display: inline-block;
+}
+
+.videos span{
+    margin-left: 50% ;
+}
+#destaques .videos #video1{
+    margin-left: 10%;
+}
+
+#destaques .videos #video2{
+    margin-left: 30%;
+}
+
+
+
