@@ -225,3 +225,41 @@ nav ul li a:hover {
     margin-top: 1%;
     margin-bottom: 5%;
 }
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-link img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
