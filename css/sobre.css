@@ -246,3 +246,161 @@ nav ul li a:hover {
 .card-content-text33 {
     color: #555;
 }
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+    nav img {
+        width: 10%;
+        margin: 0 2%;
+    }
+
+    .card {
+        max-width: 30%;
+    }
+
+    .card img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    nav img {
+        width: 12%;
+        margin: 0 2%;
+    }
+
+    .card {
+        max-width: 45%;
+    }
+
+    .card img {
+        width: 70%;
+    }
+
+    .content h1 {
+        font-size: 2.5em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    .insights-header h2 {
+        font-size: 2em;
+    }
+
+    .insights-header p {
+        font-size: 1em;
+    }
+
+    .card-content33 img {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav img {
+        width: 15%;
+        margin: 0 1%;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .card img {
+        width: 80%;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .insights-header h2 {
+        font-size: 1.8em;
+    }
+
+    .insights-header p {
+        font-size: 0.9em;
+    }
+
+    #container33 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card33 {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .card-content33 img {
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav img {
+        width: 20%;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 0.5em;
+        font-size: 16px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content h1 {
+        font-size: 1.5em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+
+    .insights-header h2 {
+        font-size: 1.5em;
+    }
+
+    .insights-header p {
+        font-size: 0.8em;
+    }
+
+    #container33 {
+        flex-direction: column;
+    }
+
+    .card33 {
+        max-width: 90%;
+    }
+
+    .card-content33 img {
+        max-width: 50px;
+    }
+}
