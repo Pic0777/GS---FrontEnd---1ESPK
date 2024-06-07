@@ -224,7 +224,7 @@ nav input {
         font-size: 1em;
     }
 }
-/* CSS para a página de login e cadastro */
+
 .login-container {
     width: 300px;
     margin: 50px auto;
@@ -272,9 +272,6 @@ nav input {
     text-align: center;
 }
 
-/* Adicionar ao CSS existente */
-
-/* Página de login e cadastro */
 .login-page {
     display: flex;
     justify-content: center;
