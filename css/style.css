@@ -227,7 +227,7 @@ nav input {
 /* CSS para a página de login e cadastro */
 .login-container {
     width: 300px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -272,4 +272,128 @@ nav input {
     text-align: center;
 }
 
+/* Adicionar ao CSS existente */
+
+/* Página de login e cadastro */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/imgs/fundo-do-oceano-fundo\ home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    color: white;
+}
+
+.login-container h2 {
+    margin-bottom: 10px;
+}
+
+.login-container p {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"],
+.login-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: var(--cor-2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: var(--cor-3);
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.remember-me a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.remember-me a:hover {
+    text-decoration: underline;
+}
+
+.or {
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.social-login button {
+    width: 32%;
+    padding: 10px;
+    margin: 0 1%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social-login .google {
+    background: #DB4437;
+}
+
+.social-login .facebook {
+    background: #3B5998;
+}
+
+.social-login .twitter {
+    background: #1DA1F2;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.signup-link a {
+    color: var(--cor-4);
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
 

@@ -7,18 +7,26 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Cadastro</h2>
-        <form id="signupForm">
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Cadastrar</button>
-        </form>
-        <p>Já tem uma conta? <a href="/html/login.html">Login</a></p>
+    <div class="login-page">
+        <div class="login-container">
+            <h2>Sign up</h2>
+            <form id="signupForm" action="/html/login.html" method="post" onsubmit="return signup()">
+                <label for="username">Enter your username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Enter your email address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Enter your password securely</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign up</button>
+                <p class="or">or</p>
+                <div class="social-login">
+                    <button type="button" class="google">G</button>
+                    <button type="button" class="facebook">f</button>
+                    <button type="button" class="twitter">t</button>
+                </div>
+                <p class="signup-link">Already have an account? <a href="/html/login.html">Login</a></p>
+            </form>
+        </div>
     </div>
     <script src="/js/signup.js"></script>
 </body>

@@ -7,16 +7,30 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Entrar</button>
-        </form>
-        <p>Não tem uma conta? <a href="/html/cadastro.html">Cadastre-se</a></p>
+    <div class="login-page">
+        <div class="login-container">
+            <h2>Log in</h2>
+            <p>Enter your details to proceed</p>
+            <form id="loginForm" action="/index.html" method="post" onsubmit="return login()">
+                <label for="email">Enter your email address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Enter your password securely</label>
+                <input type="password" id="password" name="password" required>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit">Sign in</button>
+                <p class="or">or</p>
+                <div class="social-login">
+                    <button type="button" class="google">G</button>
+                    <button type="button" class="facebook">f</button>
+                    <button type="button" class="twitter">t</button>
+                </div>
+                <p class="signup-link">Create a new account <a href="/html/cadastro.html">Sign up</a></p>
+            </form>
+        </div>
     </div>
     <script src="/js/login.js"></script>
 </body>
